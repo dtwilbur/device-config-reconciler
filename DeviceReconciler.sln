@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF731BC0-BCCF-49B7-9EF6-F9A53052C83D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceReconciler.Api", "src\DeviceReconciler.Api\DeviceReconciler.Api.csproj", "{7704AD5C-C0FA-44CB-8F64-A19F88CA9DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceReconciler.Core", "src\DeviceReconciler.Core\DeviceReconciler.Core.csproj", "{8009363C-775D-4676-B5FF-C08721C701C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{87485241-AC82-4A67-B26C-FB0696B61B04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceReconciler.Tests", "tests\DeviceReconciler.Tests\DeviceReconciler.Tests.csproj", "{9A53E2A7-055F-495C-800A-10ED6A74B2AC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7704AD5C-C0FA-44CB-8F64-A19F88CA9DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7704AD5C-C0FA-44CB-8F64-A19F88CA9DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7704AD5C-C0FA-44CB-8F64-A19F88CA9DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7704AD5C-C0FA-44CB-8F64-A19F88CA9DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8009363C-775D-4676-B5FF-C08721C701C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8009363C-775D-4676-B5FF-C08721C701C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8009363C-775D-4676-B5FF-C08721C701C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8009363C-775D-4676-B5FF-C08721C701C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A53E2A7-055F-495C-800A-10ED6A74B2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A53E2A7-055F-495C-800A-10ED6A74B2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A53E2A7-055F-495C-800A-10ED6A74B2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A53E2A7-055F-495C-800A-10ED6A74B2AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7704AD5C-C0FA-44CB-8F64-A19F88CA9DC5} = {FF731BC0-BCCF-49B7-9EF6-F9A53052C83D}
+		{8009363C-775D-4676-B5FF-C08721C701C3} = {FF731BC0-BCCF-49B7-9EF6-F9A53052C83D}
+		{9A53E2A7-055F-495C-800A-10ED6A74B2AC} = {87485241-AC82-4A67-B26C-FB0696B61B04}
+	EndGlobalSection
+EndGlobal

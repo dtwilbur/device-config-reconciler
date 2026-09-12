@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.claude/
+*.user
+*.suo
+.env
+appsettings.*.json
+*.db
+*.db-shm
+*.db-wal
